@@ -1,0 +1,8 @@
+# VSCode files
+.vscode/
+
+# CMake files
+build/
+
+# Build artifacts
+/bin/
