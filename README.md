@@ -3,7 +3,7 @@ Very simple game, implemented in a week for college exam. Despite it name, it's 
 
 ## Requirments
 
-This project is selfsufficient. It have only one dependency (see [WinBGI lib](#WinBGI_dependency)), which sources is included in [`3rdparty`](./3rdparty/winbgi) directory with appropriate cmake file.
+This project is selfsufficient. It have only one dependency (see [WinBGI lib](#winbgi-dependency)), which sources is included in [`3rdparty`](./3rdparty/winbgi) directory with appropriate cmake file.
 
 The resulting executable can be launched on any hardware powered by Windows 7 or later (may run on earlier versions, but not tested).
 
@@ -36,7 +36,7 @@ Here described three kind of enemies, presented in the game.
 
 ![movementhelp](img/movementhelp.png)
 
-_**IMPORTANT NOTE:** keys input is handled using [WinBGI lib](#WinBGI_dependency). It exposes input not by physical key codes, but rather using symbols that keys produce. Because of that, different from English QWERTY keyboard layouts (for example AZERTY, QZERTY or JCUKEN) could lead to incorrect input handling._
+_**IMPORTANT NOTE:** keys input is handled using [WinBGI lib](#winbgi-dependency). It exposes input not by physical key codes, but rather using symbols that keys produce. Because of that, different from English QWERTY keyboard layouts (for example AZERTY, QZERTY or JCUKEN) could lead to incorrect input handling._
 
 ## Screenshots
 ![menu](img/menu.png)
